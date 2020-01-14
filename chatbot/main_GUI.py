@@ -231,18 +231,18 @@ def user_Q(x):
     bot_reply=Label(f3,wraplength="310",text=query,justify=LEFT)
     bot_reply.pack(side='left')
     global i
-    if ind==8:
+    if ind==7:
             b=Button(f4,text='registration',command=registration_pics)
             b.pack()
             f4.pack()
             i=0
     else:
-       if ind==6:
+       if ind==5:
             b=Button(f4,text='lodge',command=lodging_pics)
             b.pack()
             f4.pack()
             i=0
-       elif ind==9:
+       elif ind==8:
                 picf=PhotoImage(file='flow1.png')
                 flow=Label(f4,image=picf)
                 flow.pack()
